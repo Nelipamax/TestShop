@@ -12,7 +12,7 @@ import java.util.List;
 public class Cart {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    long id;
+    Long id;
     @Column(name = "customer_id")
     long customerId;
 

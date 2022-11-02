@@ -11,7 +11,7 @@ import javax.persistence.*;
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private long id;
+    private Long id;
     @Column(name = "username")
     private String username;
     @Column(name = "password")
